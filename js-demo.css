@@ -1,0 +1,20 @@
+body {
+    width: 768px;
+    margin: 10px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:1.25em
+}
+
+.row-header>.Cell {
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+.Cell {
+    display:table-cell;
+    width: 100px;
+    text-align: center;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 2px 5px;
+}
